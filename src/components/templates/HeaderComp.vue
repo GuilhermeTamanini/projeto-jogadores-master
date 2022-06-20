@@ -4,11 +4,11 @@
       <span> <RouterLink to="/"> Home</RouterLink></span>
       <span>|</span>
 
-      <span><RouterLink to="/times"> Times</RouterLink> </span>
+      <span><RouterLink to="/cadastros"> Cadastro</RouterLink> </span>
 
       <span>|</span>
 
-      <span><RouterLink to="/jogadores"> Jogadores</RouterLink> </span>
+      <span><RouterLink to="/historico">Histórico</RouterLink> </span>
 
       <span>|</span>
 

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import TimesView from "../views/TimesView.vue";
-import JogadoresView from "../views/JogadoresView.vue";
+import CadastroView from "../views/CadastroView.vue";
+import HistoricoView from "../views/HistoricoView.vue";
 import CumeView from "../views/CumeView.vue";
 
 const router = createRouter({
@@ -13,14 +13,14 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/times",
+      path: "/cadastros",
       name: "times",
-      component: TimesView,
+      component: CadastroView,
     },
     {
-      path: "/jogadores",
-      name: "jogadores",
-      component: JogadoresView,
+      path: "/historico",
+      name: "historico",
+      component: HistoricoView,
     },
     {
       path: "/cume",
