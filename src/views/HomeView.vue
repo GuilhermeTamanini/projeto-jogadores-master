@@ -1,5 +1,5 @@
 <template>
-  <main class="home1">Bem-Vindo</main>
+  <main class="home1">Se mate</main>
 </template>
 <style>
 .home1 {

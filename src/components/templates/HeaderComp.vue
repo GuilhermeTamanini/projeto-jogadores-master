@@ -1,10 +1,17 @@
 <template>
   <header class="menu-superior">
+    <RouterLink to="/cadastros">
+    <span>
+      <img
+        src="https://play-lh.googleusercontent.com/PM1Ig_PtVUrhmgnwqnl8zBBeg02HeELpihzMHXQ44ZObjfGgVwkwxsBF26EWTV9_Unk"
+        alt="Imagem">
+    </span>
+    </RouterLink>
     <div class="menu-esquerdo">
       <span> <RouterLink to="/"> Home</RouterLink></span>
       <span>|</span>
 
-      <span><RouterLink to="/cadastros"> Cadastro</RouterLink> </span>
+      <span><RouterLink to="/livros"> Cadastro</RouterLink> </span>
 
       <span>|</span>
 
@@ -15,26 +22,28 @@
       <span><RouterLink to="/cume">Cume</RouterLink></span>
     </div>
     <div class="menu-direito">
-      <span>sair</span>
     </div>
   </header>
 </template>
 <style>
-header span {
-  padding: 0 20px;
-}
+  header span {
+    padding: 0 20px;
+  }
 
-.menu-superior {
-  justify-content: space-between;
-  text-decoration: none;
-  color: white;
-}
+  .menu-superior {
+    text-decoration: none;
+    color: white;
+  }
+  .menu-superior img {
+    width: 60px;
+    height: 60px;
+  }
 
-.menu-esquerdo .botao {
-  text-decoration: none;
-  color: white;
-}
-.menu-direito {
-  padding-right: 40px;
-}
+  .menu-esquerdo .botao {
+    text-decoration: none;
+    color: white;
+  }
+  .menu-direito {
+    padding-right: 40px;
+  }
 </style>
